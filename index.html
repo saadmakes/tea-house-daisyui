@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tea House</title>
-    <!-- tailwind and daisyui cdn -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
-<!-- tailwind customization -->
-<script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tea House</title>
+  <!-- tailwind and daisyui cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- tailwind customization -->
+  <script>
     tailwind.config = {
       theme: {
         extend: {
@@ -21,52 +22,102 @@
   </script>
   <!-- google font manrope -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<style>
-  .font-manrope {
-    font-family: 'Manrope', sans-serif;
-  }
-</style>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    .font-manrope {
+      font-family: 'Manrope', sans-serif;
+    }
+  </style>
 
 </head>
+
 <body class="font-manrope">
-    <header class="container mx-auto">
-      <div class="hero">
-        <div class="hero-content flex-col lg:flex-row">
-          <div>
-            <h1 class="text-7xl font-extrabold">
-              It's good <br>
-              tea time at The <br>
-              Tea House</h1>
-            <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-            <button class="btn">Explore More <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
-              <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd" />
-            </svg>            
-            </button>
-          </div>
-          <div><img src="/images/banner.png" class="max-w-lg" />
+  <header class="container mx-auto">
+    <div class="hero">
+      <div class="hero-content flex-col lg:flex-row">
+        <div>
+          <h1 class="text-7xl font-extrabold text-[#1C1C1C]">
+            It's good <br>
+            tea time at The <br>
+            Tea House</h1>
+          <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+          <button class="btn bg-gradient-to-r from-[#FF8938] to-[#F00] text-white">Explore More <svg
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+              <path fill-rule="evenodd"
+                d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                clip-rule="evenodd" />
+            </svg>
+          </button>
+        </div>
+        <div><img src="/images/banner.png" class="max-w-lg" />
           <!-- ratings container -->
-            <div class="flex gap-3 items-center drop-shadow-lg bg-white w-60 p-5 -mt-16">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-8 h-8 text-amber-400">
-                <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
-              </svg>
-              
+          <div class="flex gap-3 items-center drop-shadow-lg bg-white w-60 p-5 -mt-16">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+              class="w-8 h-8 text-amber-400">
+              <path fill-rule="evenodd"
+                d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
+                clip-rule="evenodd" />
+            </svg>
+
             <div>
               <h3 class="text-3xl">5.00</h3>
               <p>Trust Pilot Ratings</p>
             </div>
           </div>
 
-          </div>
         </div>
       </div>
-    </header>
-    <main class="container mx-auto">
+    </div>
+  </header>
+  <main class="lg:container mx-auto">
+    <!-- featured section -->
+    <section class="text-center my-32">
+      <h2 class="text-5xl font-extrabold mb-5">Our Featured Products</h2>
+      <p class="font-medium lg:max-w-4xl mx-auto mb-10">There are many variations of passages of Lorem Ipsum available,
+        but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look
+        even slightly believable. </p>
+      <!-- featured tea card container -->
+      <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+        <!-- first card -->
+        <div class="card p-8 bg-[#F4F4F4] shadow-xl">
+          <figure><img src="/images/tea-1.png" alt="tea" /></figure>
+          <div class="card-body text-center">
+            <h2 class="text-2xl font-bold">Milk Tea</h2>
+            <p>Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+        <!-- second card -->
+        <div class="card p-8 bg-[#F4F4F4] shadow-xl">
+          <figure><img src="/images/tea-2.png" alt="tea" /></figure>
+          <div class="card-body text-center">
+            <h2 class="text-2xl font-bold">Black Tea</h2>
+            <p>Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+        <!-- third card -->
+        <div class="card p-8 bg-[#F4F4F4] shadow-xl">
+          <figure><img src="/images/tea-3.png" alt="tea" /></figure>
+          <div class="card-body text-center">
+            <h2 class="text-2xl font-bold">Lemon Tea</h2>
+            <p>Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+        <!-- fourth card -->
+        <div class="card p-8 bg-[#F4F4F4] shadow-xl">
+          <figure><img src="/images/tea-4.png" alt="tea" /></figure>
+          <div class="card-body text-center">
+            <h2 class="text-2xl font-bold">Green Tea</h2>
+            <p>Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
 
-    </main>
-    <footer>
+      </div>
+    </section>
+  </main>
+  <footer>
 
-    </footer>
+  </footer>
 </body>
+
 </html>
